@@ -11,6 +11,12 @@ import { ListEventsComponent } from './components/event/list-events/list-events.
 import { ListProfilesComponent } from './components/profile/list-profiles/list-profiles.component';
 import { ListVenuesComponent } from './components/venue/list-venues/list-venues.component';
 import { ListTicketingsComponent } from './components/ticketing/list-ticketings/list-ticketings.component';
+import { GetArtistComponent } from './components/artist/get-artist/get-artist.component';
+import { GetEventComponent } from './components/event/get-event/get-event.component';
+import { GetProfileComponent } from './components/profile/get-profile/get-profile.component';
+import { GetTicketingComponent } from './components/ticketing/get-ticketing/get-ticketing.component';
+import { GetVenueComponent } from './components/venue/get-venue/get-venue.component';
+
 
 
 
@@ -21,7 +27,12 @@ import { ListTicketingsComponent } from './components/ticketing/list-ticketings/
     ListEventsComponent,
     ListProfilesComponent,
     ListVenuesComponent,
-    ListTicketingsComponent
+    ListTicketingsComponent,
+    GetArtistComponent,
+    GetEventComponent,
+    GetProfileComponent,
+    GetTicketingComponent,
+    GetVenueComponent
   ],
   imports: [
     BrowserModule,
