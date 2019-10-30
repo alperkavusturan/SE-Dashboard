@@ -3,8 +3,16 @@
       <tr>
         <th scope="col">#</th>
         <th scope="col">Name</th>
-        <th scope="col">surname</th>
+        <th scope="col">Surname</th>
         <th scope="col">Nickname</th>
         <th scope="col">Type</th>
       </tr>
+      <tr *ngFor= "let artist of artists" >
+        <td scope="col">{{artist.id}}</td>
+        <td scope="col">{{artist.name}}</td>
+        <td scope="col">{{artist.surname}}</td>
+        <td scope="col">{{artist.nickname}}</td>
+        <td scope="col">{{artist.artistTypeName}}</td>
+      </tr>
     </thead>
+</table>

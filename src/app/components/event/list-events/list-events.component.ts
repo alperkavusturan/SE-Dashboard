@@ -10,13 +10,12 @@ import { EventService } from '../../../services/event-service/event.service';
 export class ListEventsComponent implements OnInit {
   
   private token : string;
+  events
   constructor(private authService: AuthService, private eventService: EventService) { }
 
   ngOnInit() {
     this.authService.getToken().subscribe((data) => {    
-      this.eventService.getData(data.access_token, "GetEvents").subscribe((data) => {
-        console.log(data);
-      })
+      this.eventService.getData(data.access_token, "GetEvents").subscribe(data => this.events = data)
     }) 
   }
 }

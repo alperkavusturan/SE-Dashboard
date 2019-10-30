@@ -1,1 +1,18 @@
-<p>list-venues works!</p>
+<table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">City</th>
+            <th scope="col">District</th>
+            <th scope="col">Type</th>
+          </tr>
+          <tr *ngFor= "let venue of venues" >
+            <td scope="col">{{venue.id}}</td>
+            <td scope="col">{{venue.name}}</td>
+            <td scope="col">{{venue.city}}</td>
+            <td scope="col">{{venue.district}}</td>
+            <td scope="col">{{venue.venueTypeName}}</td>
+          </tr>
+        </thead>
+    </table>

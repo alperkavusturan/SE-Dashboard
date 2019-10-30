@@ -1,1 +1,23 @@
-<p>list-events works!</p>
+<table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">VenueId</th>
+            <th scope="col">ArtistIds</th>
+            <th scope="col">PromoterIds</th>
+            <th scope="col">EventType</th>
+            <th scope="col">StartDate</th>
+          </tr>
+          <tr *ngFor= "let event of events" >
+            <td scope="col">{{event.id}}</td>
+            <td scope="col">{{event.name}}</td>
+            <td scope="col">{{event.venueId}}</td>
+            <td scope="col">{{event.artistsIds}}</td>
+            <td scope="col">{{event.promotersIds}}</td>
+            <td scope="col">{{event.eventTypeName}}</td>
+            <td scope="col">{{event.startDate}}</td>
+          </tr>
+        </thead>
+    </table>
+    

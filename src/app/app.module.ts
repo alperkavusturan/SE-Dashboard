@@ -16,6 +16,8 @@ import { GetEventComponent } from './components/event/get-event/get-event.compon
 import { GetProfileComponent } from './components/profile/get-profile/get-profile.component';
 import { GetTicketingComponent } from './components/ticketing/get-ticketing/get-ticketing.component';
 import { GetVenueComponent } from './components/venue/get-venue/get-venue.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
 
@@ -32,7 +34,9 @@ import { GetVenueComponent } from './components/venue/get-venue/get-venue.compon
     GetEventComponent,
     GetProfileComponent,
     GetTicketingComponent,
-    GetVenueComponent
+    GetVenueComponent,
+    NavbarComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

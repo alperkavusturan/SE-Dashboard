@@ -1,1 +1,22 @@
-<p>list-ticketings works!</p>
+<table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">ProfileId</th>
+            <th scope="col">EventId</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Status</th>
+          </tr>
+          <tr *ngFor= "let record of records" >
+            <td scope="col">{{record.id}}</td>
+            <td scope="col">{{record.processDate}}</td>
+            <td scope="col">{{record.profileId}}</td>
+            <td scope="col">{{record.eventId}}</td>
+            <td scope="col">{{record.quantity}}</td>
+            <td scope="col">{{record.amount}}</td>
+            <td scope="col">{{record.status}}</td>
+          </tr>
+        </thead>
+    </table>

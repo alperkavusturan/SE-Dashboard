@@ -10,13 +10,12 @@ import { ProfileService } from '../../../services/profile-service/profile.servic
 export class ListProfilesComponent implements OnInit {
   
   private token : string;
+  profiles
   constructor(private authService: AuthService, private profileService: ProfileService) { }
 
   ngOnInit() {
     this.authService.getToken().subscribe((data) => {    
-      this.profileService.getData(data.access_token, "GetProfiles").subscribe((data) => {
-        console.log(data);
-      })
+      this.profileService.getData(data.access_token, "GetProfiles").subscribe(data => this.profiles = data)
     }) 
   }
 }

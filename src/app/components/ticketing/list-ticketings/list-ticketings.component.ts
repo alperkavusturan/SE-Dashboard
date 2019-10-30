@@ -10,13 +10,12 @@ import { TicketingService } from '../../../services/ticketing-service/ticketing.
 export class ListTicketingsComponent implements OnInit {
   
   private token : string;
+  records
   constructor(private authService: AuthService, private ticketingService: TicketingService) { }
 
   ngOnInit() {
     this.authService.getToken().subscribe((data) => {    
-      this.ticketingService.getData(data.access_token, "GetTicketingRecords").subscribe((data) => {
-        console.log(data);
-      })
+      this.ticketingService.getData(data.access_token, "GetTicketingRecords").subscribe(data => this.records = data)
     }) 
   }
 }
