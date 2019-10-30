@@ -13,8 +13,6 @@ export class AddArtistComponent implements OnInit {
   private token: string;
   artist: Artist;
 
-
-
   constructor(private authService: AuthService, private artistService: ArtistService) { }
 
   ngOnInit() {
