@@ -10,10 +10,12 @@ import { GetEventComponent } from './components/event/get-event/get-event.compon
 import { GetProfileComponent } from './components/profile/get-profile/get-profile.component';
 import { GetTicketingComponent } from './components/ticketing/get-ticketing/get-ticketing.component';
 import { GetVenueComponent } from './components/venue/get-venue/get-venue.component';
+import { AddArtistComponent } from './components/artist/add-artist/add-artist.component';
 
 const routes: Routes = [
   { path: 'list-artists', component: ListArtistsComponent},
   { path: 'get-artist/:id', component: GetArtistComponent},
+  { path: 'add-artist', component: AddArtistComponent},
 
   { path: 'list-events', component: ListEventsComponent},
   { path: 'get-event/:id', component: GetEventComponent},

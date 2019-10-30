@@ -18,6 +18,7 @@ import { GetTicketingComponent } from './components/ticketing/get-ticketing/get-
 import { GetVenueComponent } from './components/venue/get-venue/get-venue.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { AddArtistComponent } from './components/artist/add-artist/add-artist.component';
 
 
 
@@ -36,7 +37,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     GetTicketingComponent,
     GetVenueComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    AddArtistComponent
   ],
   imports: [
     BrowserModule,
