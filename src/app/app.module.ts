@@ -19,6 +19,7 @@ import { GetVenueComponent } from './components/venue/get-venue/get-venue.compon
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AddArtistComponent } from './components/artist/add-artist/add-artist.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 
@@ -38,7 +39,8 @@ import { AddArtistComponent } from './components/artist/add-artist/add-artist.co
     GetVenueComponent,
     NavbarComponent,
     SidebarComponent,
-    AddArtistComponent
+    AddArtistComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

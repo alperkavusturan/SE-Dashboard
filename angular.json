@@ -25,11 +25,24 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/fonts.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/style.css",
+              "src/assets/css/swiper.min.css",
+              "src/assets/css/volume.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/plugins/nice_select/jquery.nice-select.min.js",
+              "src/assets/js/plugins/player/audio-player.js",
+              "src/assets/js/plugins/player/jplayer.playlist.min.js",
+              "src/assets/js/plugins/player/jquery.jplayer.min.js",
+              "src/assets/js/plugins/player/volume.js",
+              "src/assets/js/plugins/swiper/js/swiper.min.js"
             ]
           },
           "configurations": {
