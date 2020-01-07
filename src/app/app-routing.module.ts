@@ -11,7 +11,7 @@ import { GetProfileComponent } from './components/profile/get-profile/get-profil
 import { GetTicketingComponent } from './components/ticketing/get-ticketing/get-ticketing.component';
 import { GetVenueComponent } from './components/venue/get-venue/get-venue.component';
 import { AddArtistComponent } from './components/artist/add-artist/add-artist.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 const routes: Routes = [

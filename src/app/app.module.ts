@@ -19,7 +19,15 @@ import { GetVenueComponent } from './components/venue/get-venue/get-venue.compon
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AddArtistComponent } from './components/artist/add-artist/add-artist.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MonthlyTopComponent } from './components/monthly-top/monthly-top.component';
+import { RecentlyReleasedComponent } from './components/recently-released/recently-released.component';
+import { NewReleaseComponent } from './components/new-release/new-release.component';
+import { FeaturedReleaseComponent } from './components/featured-release/featured-release.component';
+import { TopGenresComponent } from './components/top-genres/top-genres.component';
+import { LiveRadioComponent } from './components/live-radio/live-radio.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FeaturedLabelsComponent } from './components/featured-labels/featured-labels.component';
 
 
 
@@ -40,7 +48,15 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     SidebarComponent,
     AddArtistComponent,
-    HomeComponent
+    HomeComponent,
+    MonthlyTopComponent,
+    RecentlyReleasedComponent,
+    NewReleaseComponent,
+    FeaturedReleaseComponent,
+    TopGenresComponent,
+    LiveRadioComponent,
+    FooterComponent,
+    FeaturedLabelsComponent
   ],
   imports: [
     BrowserModule,
